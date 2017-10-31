@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+.calcContainer {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0C0C0C;
+  position: relative;
+  width: 325px;
+  height: 450px;
+  overflow: auto;
+}
+
+.output {
+  font-size: 3em;
+  padding: 5px;
+  color: white;
+  display:flex;
+  justify-content:flex-end;
+  align-items:flex-end;
+  word-wrap: break-word;
+}
+.button {
+  border: solid 1px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 60px;
+  background-color: #A89A9A;
+}
+
+.button:active {
+  border: solid 1px;
+  text-align: center;
+  background-color: #827272;
+}
+
+.btnContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.operator {
+  background-color: #FF7400;
+  color: white;
+  border-color: black;
+}
+
+.operator:active {
+  background-color: #C65A00;
+  color: white;
+  border-color: black;
+}
